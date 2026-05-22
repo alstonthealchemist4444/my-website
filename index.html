@@ -1,43 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alston Edwards | Computer Science CTA</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="site-header__inner">
-      <p class="site-title">Alston Edwards</p>
-    </div>
-  </header>
-  <section class="cta-banner">
-    <div class="cta-content">
-      <p class="eyebrow">Discover the next chapter</p>
-      <h1>Grow curiosity into code with Alston Edwards.</h1>
-      <p class="description">I am a former horticulturist now studying computer science as an undergraduate at UNCG, blending botanical insight with modern technology to create meaningful digital growth.</p>
-      <a class="cta-button" href="#contact">Connect and collaborate</a>
-    </div>
-  </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alston Edwards | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="page-width topbar__inner">
+        <a class="brand" href="#home">Alston Edwards</a>
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+        </nav>
+      </div>
+    </header>
 
-  <section class="bio-panel">
-    <div class="bio-panel__inner">
-      <div class="photo-frame">
-        <img src="juanwa-pharmacy-2252534_1920.jpg" alt="Botanical portrait display" />
-      </div>
-      <div class="bio-details">
-        <p class="section-label">About Alston</p>
-        <h2>Game design, plants, computers, and myth.</h2>
-        <p>I love video games, caring for plants, building computers, and exploring Greek mythology. These interests feed the way I think, learn, and create as a computer science student.</p>
-        <ul class="interest-list">
-          <li>Video games that spark curiosity</li>
-          <li>Plants and horticulture inspiration</li>
-          <li>Computer systems and creative builds</li>
-          <li>Greek mythology and ancient stories</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</body>
+    <main class="page-width">
+      <section id="home" class="hero">
+        <div class="hero__content">
+          <p class="eyebrow">UNCG computer science undergraduate</p>
+          <h1>From horticulture to code, I build thoughtful systems with precision.</h1>
+          <p class="hero__text">
+            I am a former horticulturist now studying computer science at UNCG. I blend plant-minded observation with software craftsmanship to create clean, modern digital work.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#about">Start here</a>
+            <a class="button button--ghost" href="#work">See highlights</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section--surface">
+        <div class="section__grid">
+          <div class="avatar-frame" aria-hidden="true">
+            <img class="profile-image" src="juanwa-pharmacy-2252534_1920.jpg" alt="Portrait of Alston Edwards" />
+          </div>
+          <div class="section-copy">
+            <p class="section-label">About Alston</p>
+            <h2>Plant-inspired thinking, gaming curiosity, and technology focus.</h2>
+            <p>
+              I love video games, plants, computers, and Greek mythology. My work is grounded in structure, play, and storytelling, and I bring that mindset into every project and codebase.
+            </p>
+            <ul class="feature-list">
+              <li>Video games that spark creative thinking</li>
+              <li>Plants and horticulture as systems inspiration</li>
+              <li>Computer science learning and software builds</li>
+              <li>Greek mythology fueling narrative ideas</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-header">
+          <p class="section-label">Selected work</p>
+          <h2>Minimal projects with thoughtful detail and polished execution</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Structured systems</h3>
+            <p>Work that values clarity, order, and practical developer-first design.</p>
+          </article>
+          <article class="card">
+            <h3>Interactive ideas</h3>
+            <p>Projects that blend gameplay inspiration with modern UI thinking.</p>
+          </article>
+          <article class="card">
+            <h3>Focused growth</h3>
+            <p>Learning through real development work while maintaining a polished aesthetic.</p>
+          </article>
+        </div>
+      </section>
+    
+      <footer class="site-footer" role="contentinfo" aria-label="Footer with skills">
+        <div class="page-width footer__inner">
+          <p class="footer-note">Skills</p>
+          <div class="skill-badges" aria-hidden="false">
+            <span class="badge">Java</span>
+            <span class="badge">Python</span>
+            <span class="badge">Web Dev</span>
+            <span class="badge">Horticulture</span>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
