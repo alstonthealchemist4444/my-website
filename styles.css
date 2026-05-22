@@ -236,6 +236,35 @@ h1 {
   color: var(--text);
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.skill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 16px;
+  background: rgba(244, 241, 234, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.skill i {
+  font-size: 1.2rem;
+  color: var(--gold);
+  width: 1.8rem;
+  text-align: center;
+}
+
+.skill span {
+  color: var(--cream);
+  font-weight: 600;
+}
+
 .section-header {
   display: flex;
   flex-direction: column;
